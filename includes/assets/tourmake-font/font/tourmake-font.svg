@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Studiweb</metadata>
+<defs>
+<font id="tourmake-font" horiz-adv-x="1000" >
+<font-face font-family="tourmake-font" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="tourmake_icon" unicode="&#xe800;" d="M500 776c-170 0-309-138-309-308 0-212 277-522 288-535 11-12 31-12 42 0 12 13 288 323 288 535 0 170-139 308-309 308z m-31-423l-125 126 55 56 70-71 182 181 55-55-237-237z" horiz-adv-x="1000" />
+
+<glyph glyph-name="hotspot_icon" unicode="&#xe802;" d="M495 748c-63 0-115-52-115-116 0-79 103-194 108-199 4-5 11-5 15 0 4 5 107 120 107 199 0 64-51 116-115 116z m-11-158l-47 47 21 20 26-26 67 68 21-21-88-88z m-350-241v-210h211v210h-211z m198-199h-185v185h185v-185z m-198 635v-391h724v391h-724z m708-378h-694v362h694v-362z m-448-58v-210h211v210h-211z m198-199h-185v185h185v-185z m56 199v-210h210v210h-210z m197-199h-184v185h184v-185z m-197-48v-211h210v211h-210z m197-200h-184v185h184v-185z m-450 200v-211h210v211h-210z m197-200h-184v185h184v-185z m-458 200v-211h211v211h-211z m198-200h-185v185h185v-185z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

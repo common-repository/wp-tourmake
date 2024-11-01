@@ -1,0 +1,36 @@
+/* TOUR CONTAINER */
+#wptm-tour-container, .wptm-vm-container{
+    margin: 50px 0 !important;
+    max-width: 100%;
+}
+
+/* EMPTY DIV */
+.wptm-empty-tm, .wptm-empty-vm {
+    height: 600px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+    padding: 25px;
+    text-align: center;
+}
+
+.wptm-empty-tm{
+    background-color: #d5d5d52b;
+}
+
+.wptm-empty-vm {
+    background-color: #b4b9be;
+}
+
+@media only screen and (max-width: 992px) {
+    #wptm-tour-container, .wptm-vm-container, .wptm-vm-container iframe, .wptm-empty-tm, .wptm-empty-vm{
+        height: 500px !important;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #wptm-tour-container, .wptm-vm-container, .wptm-vm-container iframe, .wptm-empty-tm, .wptm-empty-vm{
+        height: 250px !important;
+    }
+}

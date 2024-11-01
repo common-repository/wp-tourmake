@@ -1,0 +1,216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Tourmake\n"
+"POT-Creation-Date: 2018-07-20 09:13+0200\n"
+"PO-Revision-Date: 2018-07-20 09:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-tourmake.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: class_wp_tourmake.php:46 includes/templates/info.php:13
+msgid "WP Tourmake"
+msgstr ""
+
+#: class_wp_tourmake.php:47 includes/admin/pages.php:141
+msgid "My tours"
+msgstr ""
+
+#: class_wp_tourmake.php:48 includes/templates/tour-form.php:12
+msgid "Insert tour"
+msgstr ""
+
+#: class_wp_tourmake.php:49 includes/templates/tour-form.php:79
+msgid "Edit tour"
+msgstr ""
+
+#: includes/templates/info.php:14
+msgid "Get ready to generate Tourmake's and Viewmake's shortcodes!"
+msgstr ""
+
+#: includes/templates/info.php:20
+msgid "What is WP Tourmake?"
+msgstr ""
+
+#: includes/templates/info.php:23
+msgid ""
+"<b>WP Tourmake</b> plugin generates shortcodes to add <b>Tourmake</b>'s and "
+"<b>Viewmake</b>'s virtual tours in your website pages."
+msgstr ""
+
+#: includes/templates/info.php:28
+msgid "FAQ"
+msgstr ""
+
+#: includes/templates/info.php:33
+msgid "Does it work with any theme?"
+msgstr ""
+
+#: includes/templates/info.php:34
+msgid ""
+"Sure! Our plugin will work with any theme, but may require some styling to "
+"make it match nicely."
+msgstr ""
+
+#: includes/templates/info.php:41
+msgid "How to use WP Tourmake"
+msgstr ""
+
+#: includes/templates/info.php:44
+msgid "Free version"
+msgstr ""
+
+#: includes/templates/info.php:46
+msgid ""
+"Go to the admin menu <span class=\"menu-tag\"> WP Tourmake<b> > </b>My tours "
+"</span>  and click <span class=\"add-new-action\">Add new</span>."
+msgstr ""
+
+#: includes/templates/info.php:49
+msgid ""
+"Fill the <b>form</b> and click on the <span class=\"button-example"
+"\">Generate shortcode</span> button. Then you will see your Tourmake's and "
+"Viewmake's tours in the table.<br>Now you just have to <b>copy and paste</b> "
+"Tourmake's or Viewmake's shortcodes on your pages!"
+msgstr ""
+
+#: includes/templates/info.php:51
+msgid "Pro version"
+msgstr ""
+
+#: includes/templates/info.php:59
+msgid "Pro Version"
+msgstr ""
+
+#: includes/templates/info.php:62
+msgid ""
+"<b>WP Tourmake Pro</b> allows you to enrich your page with more details "
+"about the virtual tour of your business."
+msgstr ""
+
+#: includes/templates/info.php:63
+msgid ""
+"With WP Tourmake Pro you have also the option to enable the display of the "
+"<b>hotspots</b> related to your virtual tour: in this way you will be able "
+"to better illustrate to visitors the products and services you offer!"
+msgstr ""
+
+#. Author of the plugin/theme
+#: includes/templates/table.php:15
+msgid "Tourmake"
+msgstr ""
+
+#: includes/templates/table.php:18
+msgid "Viewmake"
+msgstr ""
+
+#: includes/templates/table.php:29
+msgid "Add new"
+msgstr ""
+
+#: includes/templates/table.php:34
+msgid "Nothing to display."
+msgstr ""
+
+#: includes/templates/table.php:41
+msgid "All"
+msgstr ""
+
+#: includes/templates/table.php:48
+msgid "Bulk actions"
+msgstr ""
+
+#: includes/templates/table.php:49
+msgid "Delete"
+msgstr ""
+
+#: includes/templates/table.php:51
+msgid "Apply"
+msgstr ""
+
+#: includes/templates/table.php:57 includes/templates/table.php:159
+msgid "Select all"
+msgstr ""
+
+#: includes/templates/table.php:60 includes/templates/table.php:162
+msgid "Shortcode"
+msgstr ""
+
+#: includes/templates/table.php:62 includes/templates/table.php:164
+#: includes/templates/tour-form.php:17 includes/templates/tour-form.php:84
+msgid "Tour name"
+msgstr ""
+
+#: includes/templates/table.php:63 includes/templates/table.php:165
+#: includes/templates/tour-form.php:25 includes/templates/tour-form.php:92
+msgid "Link"
+msgstr ""
+
+#: includes/templates/table.php:66 includes/templates/table.php:169
+msgid "Author"
+msgstr ""
+
+#: includes/templates/table.php:71 includes/templates/table.php:174
+msgid "Date"
+msgstr ""
+
+#: includes/templates/table.php:74 includes/templates/table.php:177
+#: includes/templates/tour-form.php:33 includes/templates/tour-form.php:100
+msgid "Zoom lock"
+msgstr ""
+
+#: includes/templates/table.php:75 includes/templates/table.php:178
+#: includes/templates/tour-form.php:41 includes/templates/tour-form.php:108
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/templates/table.php:76 includes/templates/table.php:179
+#: includes/templates/tour-form.php:49 includes/templates/tour-form.php:116
+msgid "Height"
+msgstr ""
+
+#: includes/templates/table.php:77 includes/templates/table.php:180
+#: includes/templates/tour-form.php:57 includes/templates/tour-form.php:124
+msgid "Width"
+msgstr ""
+
+#: includes/templates/table.php:97
+msgid "Select tour"
+msgstr ""
+
+#: includes/templates/table.php:114 includes/templates/table.php:118
+msgid "Edit"
+msgstr ""
+
+#: includes/templates/tour-form.php:66
+msgid "Generate shortcode"
+msgstr ""
+
+#: includes/templates/tour-form.php:133
+msgid "Save changes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.tourmake.it"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WP Tourmake plugin generates shortcodes to add Tourmake's and Viewmake's "
+"virtual tours in your website pages."
+msgstr ""

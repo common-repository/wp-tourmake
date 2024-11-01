@@ -1,0 +1,343 @@
+/* INFO PAGE */
+.wptm-wrapper {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 40% 50%;
+    color: #444;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.wptm-box {
+    background-color: #fff;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 0 #ddd;
+}
+
+.wptm-box i{
+    margin-right: 10px;
+}
+
+/* thanks */
+.thanks{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.wptm-note p {
+    font-size: 18px;
+    color: gray;
+    font-style: italic;
+    line-height: 2;
+}
+
+.wptm-note .author{
+    float: right;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.wptm-note i{
+    font-size: 35px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: #696969;
+}
+
+.wptm-note {
+    padding: 10px 30px;
+    background: #ffffff;
+    box-shadow: 5px 10px 25px 0 #777;
+    position: relative;
+}
+
+/* usage */
+.wptm-usage {
+    grid-column: 1;
+    grid-row: 3 / span 2;
+}
+
+.wptm-add-new-action, .wptm-add-new-action:active{
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    outline: 0;
+}
+
+.wptm-menu-tag {
+    border: 1px solid #414950;
+    color: #fff;
+    background-color: #6d6f71;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.wptm-shortcode{
+    margin: 20px 10px;
+}
+
+.wptm-shortcode-syntax{
+    background-color: #e7e7e7;
+    padding: 0 10px 3px;
+    border: 1px solid #444;
+    font-size: 18px;
+}
+
+.wptm-shortcode-example{
+    height: 250px;
+    width: 400px;
+    border: 1px solid #d7d7d7;
+    margin: 30px 30px;
+    box-shadow: 0 5px 10px 0 #ddd;
+}
+
+.wptm-parameters{
+    margin: 15px 0;
+}
+
+.wptm-code{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ddd;
+    border: 1px solid #b4b9be;
+    color: #666;
+    padding: 0 5px;
+}
+
+/* info */
+.info {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* pro version */
+.wptm-pro {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+}
+
+.wptm-example-pro-grid{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    margin: 30px;
+}
+
+.wptm-shortcode-example-pro{
+    height: 250px;
+    width: 300px;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 5px 10px 0 #ddd;
+}
+
+/* info page text*/
+.wptm-info-title{
+    font-size: 35px !important;
+}
+
+.wptm-info-subtitle{
+    font-size: 18px;
+    color: #777777;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.wptm-box-title{
+    background-color: #00A0E3;
+    padding: 10px;
+    color: white;
+}
+
+.wptm-box-content p{
+    color: rgba(0, 0, 0, 0.83);
+    line-height: 1.5;
+    font-size: 16px;
+}
+.wptm-box-content{
+    padding: 15px 40px;
+}
+
+.wptm-usage-title {
+    /*margin-bottom: 0;*/
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* GENERAL STYLE */
+.wptm-column-link{
+    width: 40%;
+}
+
+.wptm-check-column{
+    width: 2%;
+}
+
+.wptm-title{
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.wptm-tab-title{
+    margin: 2px;
+}
+
+.wptm-edit{
+    font-weight: normal;
+}
+
+.wptm-all{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.wptm-table td {
+    vertical-align: middle;
+}
+
+/* empty list */
+.wptm-no-tour{
+    color: #aaa;
+    margin: 30px auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.wptm-no-tour:before{
+    color: #ddd;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.8);
+    font-size: 6em;
+    display: block;
+    position: relative!important;
+    font-family: "tourmake-font" !important;
+    line-height: 1.5;
+    text-align: center;
+    content: "\e800";
+    margin: 0;
+}
+
+.wptm-btn-row {
+    margin-top: 20px;
+}
+
+.wptm-button {
+    font-size: 16px !important;
+}
+
+/* FORM */
+#wptm_form{
+    margin: 30px auto;
+    position: relative;
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#wptm_form input[disabled]{
+    opacity: 0.5;
+}
+
+#wptm_form input[type='number'], #wptm_form input[type='text'] {
+    /*padding: 15px;*/
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 13px;
+    height: 28px;
+}
+
+#wptm_form input[type='number'] {
+    width: 20%;
+}
+
+#wptm_form input[type='text'] {
+    width: 40%;
+}
+
+#wptm_form select{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    height: 31px;
+    color: #2C3E50;
+}
+
+#wptm_form input[type='checkbox']{
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+#wptm_form .action-button {
+    width: 100px;
+    background: #10A7FA;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#wptm_form .action-button:hover, #vm_gallery_form .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #10A7FA;
+}
+
+#wptm_form .wptm-label {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.wptm-form-error{
+    color: red;
+    padding-left: 10px;
+}
+
+/* RESPONSIVE CSS */
+@media only screen and (max-width:1140px) {
+    .thanks{
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    .wptm-usage {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    .info {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    .wptm-pro {
+        grid-column: 1 / span 2;
+        grid-row: 4 ;
+    }
+
+    .wptm-check-column{
+        width: 5%;
+    }
+}
+
